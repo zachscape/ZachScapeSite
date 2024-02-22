@@ -1,0 +1,93 @@
+/* CSS for the Features component */
+.features-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  overflow-y: hidden;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 1.5em;
+  text-shadow: 2px 2px #120404;
+}
+
+.feature-card {
+  width: 85%;
+  height: 40em;
+  margin: 10px 20px 20px 20px;
+  text-align: center;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  visibility: hidden;
+  border-radius: 0.5em;
+  transition: all 0.5s ease-in-out;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.feature-card.active {
+  visibility: visible;
+  opacity: 1;
+}
+
+.feature-name {
+  margin: 400px 0px 0px 0px;
+  font-size: 3em;
+}
+
+.feature-description {
+  margin: 20px 0px 30px 0px;
+  padding-left: 3em;
+  padding-right: 3em;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.survival {
+  background-image: url("../../images/background.png");
+}
+
+.questing {
+  background-image: url("../../images/background.png");
+}
+
+.raids {
+  background-image: url("../../images/background.png");
+}
+
+.pvp {
+  background-image: url("../../images/background.png");
+}
+
+.faction {
+  background-image: url("../../images/background.png");
+}
+
+.space {
+  background-image: url("../../images/spacescene.png");
+  color: white;
+}
+
+
+@media (max-width: 700px) {
+  .feature-card {
+    height: 30em;
+  }
+
+  .feature-name {
+    margin-top: 10em;
+    font-size: 2em;
+  }
+  
+  .feature-description {
+
+    padding-left: 3em;
+    padding-right: 3em;
+    text-align: center;
+    font-size: 1em;
+  }
+
+}

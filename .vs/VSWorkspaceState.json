@@ -1,0 +1,17 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\client",
+    "\\client\\src",
+    "\\client\\src\\Components",
+    "\\client\\src\\Components\\Header",
+    "\\client\\src\\Sections",
+    "\\client\\src\\Sections\\AboutContact",
+    "\\client\\src\\Sections\\Afterlands",
+    "\\client\\src\\Sections\\Home",
+    "\\client\\src\\Sections\\Mobileapps",
+    "\\client\\src\\Sections\\Websites"
+  ],
+  "SelectedNode": "\\client\\src\\Sections\\AboutContact\\Contact.js",
+  "PreviewInSolutionExplorer": false
+}

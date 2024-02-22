@@ -1,0 +1,55 @@
+
+.about{
+    margin-top: 0em;
+    background-image: url("../../images/me.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-size: cover;
+    z-index: 1;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    background-position: center;
+    background-position-y: -5.9em;
+    color: white;
+   
+  }
+
+  .about-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+  }
+  
+  .heading-section {
+    text-align: center;
+  }
+  
+  .why-section, .how-section {
+    width: 30%;
+    margin: 2rem 0;
+    margin-left: 1em;
+    margin-bottom: 5em;
+  }
+
+  .why-section {
+    margin-top: 10em;
+    padding-bottom: 6em;
+  }
+
+  .content {
+    position: relative;
+    margin-bottom: 20em;
+  }
+  .how-section {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin-right: 1em;
+    height: 0%;
+  }
+  @media screen and (min-width: 500px) {
+    .why-section, .how-section {
+        width: 40%;
+      }
+}

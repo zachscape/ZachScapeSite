@@ -1,0 +1,53 @@
+.App {
+background-color: #282c34;
+font-family: 'Orbitron', sans-serif;
+}
+
+HTML {
+  background-color: #10131a;
+}
+
+a {
+  text-decoration: none;
+}
+.home img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+html, body {
+  margin: 0;
+  height: 100%;
+}
+body {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 1fr;
+  grid-template-areas: "main" "footer";
+  grid-template-rows: 1fr 80px;
+  
+}
+/* Hide the scrollbar for all browsers */
+::-webkit-scrollbar {
+  width: 0.2em;
+  background-color: transparent;
+}
+::-webkit-scrollbar-thumb {
+background-color: #000000;
+}
+
+/* For Firefox */
+scrollbar {
+  width: 0.2em;
+  background-color: transparent;
+}
+scrollbar thumb {
+  background-color: #000000;
+}
+
