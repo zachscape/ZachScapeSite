@@ -1,7 +1,8 @@
 import Footer from './Components/Footer/Footer';
 import Home from './Components/Home/Home';
 import About from './Components/AboutContact/About';
-import Afterlands from './Components/afterlands/Afterlands'
+import Afterlands from './Components/afterlands/Afterlands';
+import Email from './Components/email/Email';
 import React, { Component } from "react";
 import {
   BrowserRouter as Router,
@@ -21,6 +22,7 @@ export default class App extends Component {
           <Route path='/About' element={<About />}></Route>
           <Route path='/afterlands' element={<Afterlands />}></Route>
         </Routes>
+        <Email />
         <Footer />
       </Router>
     </div>
